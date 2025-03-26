@@ -3,3 +3,6 @@
     list-style-type: none;
 }
 
+.card {
+    display: inline-block;
+}
