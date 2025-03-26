@@ -1,43 +1,5 @@
 // FORM
 
-// const form = document.querySelector("form");
-
-// form.onsubmit = (e) => {
-//   e.preventDefault();
-//   const inputName = document.getElementById("add");
-//   const eleAdd = {
-//     name: inputName.value,
-//   };
-
-//   //   console.log(eleAdd);
-
-//   //   CONTAINER-LIST
-//   const containerlist = document.getElementById("containerList");
-
-//   const createDiv = document.createElement("div");
-
-//   createDiv.classList.add("card");
-
-//   const createUl = document.createElement("ul");
-//   const createLi = document.createElement("li");
-
-//   const createButton = document.createElement("button");
-//   createButton.innerHTML = `Elimina`;
-
-//   createButton.onclick = (e) => {
-//     // metodi equivalenti per partire dal e.currentTarget che è il bottone cliccato, e risalire al genitore da eliminare
-
-//     // e.currentTarget.parentNode.remove()
-//     e.currentTarget.closest(".card").remove();
-//   };
-
-//   createLi.innerHTML = inputName.value;
-//   createUl.append(createLi);
-//   createDiv.append(createUl, createButton);
-//   containerlist.append(createDiv);
-//   form.reset();
-// };
-
 const form = document.querySelector("form");
 
 form.onsubmit = (e) => {
